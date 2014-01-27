@@ -32,6 +32,7 @@ import java.util.Map;
 /**
  *
  * @author Vasilis Vryniotis <bbriniotis at datumbox.com>
+ * @see <a href="http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/">http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/</a>
  */
 public class NaiveBayesExample {
 
@@ -81,14 +82,14 @@ public class NaiveBayesExample {
         nb.setChisquareCriticalValue(6.63); //0.01 pvalue
         nb.train(trainingExamples);
         
-        //get trained classifier
+        //get trained classifier knowledgeBase
         NaiveBayesKnowledgeBase knowledgeBase = nb.getKnowledgeBase();
         
         nb = null;
         trainingExamples = null;
         
         
-        //Test classifier
+        //Use classifier
         nb = new NaiveBayes(knowledgeBase);
         String exampleEn = "I am English";
         String outputEn = nb.predict(exampleEn);

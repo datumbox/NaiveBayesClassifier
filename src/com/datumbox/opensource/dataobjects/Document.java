@@ -24,6 +24,7 @@ import java.util.Map;
  * prediction as a bag of words.
  * 
  * @author Vasilis Vryniotis <bbriniotis at datumbox.com>
+ * @see <a href="http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/">http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/</a>
  */
 public class Document {
     

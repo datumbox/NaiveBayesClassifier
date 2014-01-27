@@ -32,6 +32,7 @@ import java.util.Map;
  * http://blog.datumbox.com/machine-learning-tutorial-the-naive-bayes-text-classifier/
  * 
  * @author Vasilis Vryniotis <bbriniotis at datumbox.com>
+ * @see <a href="http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/">http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/</a>
  */
 public class NaiveBayes {
     private double chisquareCriticalValue = 10.83; //equivalent to pvalue 0.001. It is used by feature selection algorithm

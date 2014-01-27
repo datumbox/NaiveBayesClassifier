@@ -27,6 +27,7 @@ import java.util.Map;
  * from the dataset and perform feature selection by using the Chisquare test.
  * 
  * @author Vasilis Vryniotis <bbriniotis at datumbox.com>
+ * @see <a href="http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/">http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/</a>
  */
 public class FeatureExtraction {
     
