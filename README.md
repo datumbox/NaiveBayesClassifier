@@ -15,6 +15,6 @@ http://blog.datumbox.com/using-feature-selection-methods-in-text-classification/
 Useful Links
 ============
 
-Datumbox: https://www.datumbox.com/
+Datumbox: http://www.datumbox.com/
 
-Machine Learning Blog: https://blog.datumbox.com/
+Machine Learning Blog: http://blog.datumbox.com/
